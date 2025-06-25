@@ -1,0 +1,158 @@
+@media (max-width: 375px) {
+
+  .grid{
+    display: grid;
+    gap: 20px
+  }
+
+  .grid.col-12 {
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .hadar{
+      order: -1;
+      display: flex;
+      width: 100%;
+      align-items: start;
+    }
+
+
+    .texts{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap-reverse;
+
+    }
+
+
+    .hero img{
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .hero-text{
+      max-width: 25%;
+    }
+
+    .texts{
+      max-width: 25%;
+    }
+  
+    .hadar img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+
+
+    .text{
+      font-size: 36px;
+    }
+
+    .navbar{
+        display: none;
+    }
+    .btn-primary{
+        display: none;
+    }
+
+    .experience{
+      display: grid;
+      grid-template-columns: repeat(3, 19%);
+      justify-self: start;
+      max-height: 100%;
+      min-width: 20%;
+    }
+
+    .avatar{
+      width: 336px;
+      height: 348px;
+      min-width: 300px;
+      gap: 24px;
+      border-right-width: 1px;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 3px 4px 3px 0px #00000012;
+    }
+
+    .avatar-wrapper{
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      margin-left: 18px;
+    }
+
+    .upwork{
+      width: 323px;
+      height: 372px;
+      border-radius: 12px;
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 10px 5px;
+      box-shadow: 5px 4px 3px 0px #00000012;
+
+    }
+
+    .upwork img{
+      order: -2
+    }
+
+    .upwork p{
+      order: -1;
+      justify-self: center;
+    }
+
+    .upwork ul{
+      list-style: none;
+      justify-content: center;
+    }
+
+    .me{
+      display: flex;
+    align-items: start;
+    padding-left: 9%;
+    }
+
+    .text-4{
+      font-size:18px;
+    }
+
+    .email img{
+      display: none;
+    }
+    
+
+    .email{
+      padding-right: 90px;
+      align-items: center;
+    }
+
+    .center{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      max-width: 26%;
+    }
+
+    .center-2{
+       width: 170px;
+    }
+
+    .p-2{
+      text-align: center;
+      padding-right: 20%;
+    }
+    
+    .p{
+      text-align: center;
+      padding-right: 20%;
+    }
+  }
+  
